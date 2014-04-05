@@ -1,0 +1,2 @@
+default: -r features --color --format pretty  --dotcucumber features/.cucumber
+ci: -r features DISPLAY=:99.0 HEADLESS=true TRAVIS=true --tags ~@wip --format  pretty --color

@@ -1,0 +1,44 @@
+[
+  {
+    "source": "^Eu como visitante na pagina de agronegocio$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:1",
+    "steps": [
+      {
+        "name": "Eu como visitante na pagina de agronegocio",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Olho na sessao de noticias$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:6",
+    "steps": [
+      {
+        "name": "Olho na sessao de noticias",
+        "args": [
+
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Preciso ver (\\d+) noticias recentes$",
+    "flags": "",
+    "file_colon_line": "features/step_definitions/smoke_steps.rb:10",
+    "steps": [
+      {
+        "name": "Preciso ver 3 noticias recentes",
+        "args": [
+          {
+            "offset": 12,
+            "val": "3"
+          }
+        ]
+      }
+    ]
+  }
+]
