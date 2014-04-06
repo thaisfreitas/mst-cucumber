@@ -1,6 +1,6 @@
 class AgronegocioPage
 
-  URLS = { :production => ENV["URL_APP"]+"agronegocio" }
+  URLS = { :production => "http://localhost:4000/agronegocio" }
 
   def initialize(browser)
     @browser = browser
