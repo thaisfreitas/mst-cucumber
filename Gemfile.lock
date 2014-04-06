@@ -32,8 +32,6 @@ GEM
       multi_json (~> 1.0)
       rubyzip (~> 1.0)
       websocket (~> 1.0.4)
-    watir-page-helper (1.0.3)
-      watir-webdriver
     watir-webdriver (0.6.8)
       selenium-webdriver (>= 2.18.0)
     websocket (1.0.7)
@@ -47,5 +45,4 @@ DEPENDENCIES
   rake
   rspec (> 0)
   watir
-  watir-page-helper (> 0)
   watir-webdriver (> 0)
