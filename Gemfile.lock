@@ -32,8 +32,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cucumber (> 0)
-  headless (> 0)
+  cucumber
+  headless
   rake
   watir
-  watir-webdriver (> 0)
+  watir-webdriver

@@ -1,0 +1,13 @@
+/Users/ralencar/.rvm/rubies/ruby-2.0.0-p353/bin/ruby extconf.rb 
+checking for main() in -lc... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling gherkin_lexer_zh_tw.c
+linking shared-object gherkin_lexer_zh_tw.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 gherkin_lexer_zh_tw.bundle ./.gem.20140406-36321-15ex7od
+installing default gherkin_lexer_zh_tw libraries
